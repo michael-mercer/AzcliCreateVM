@@ -51,8 +51,8 @@ read -p "Enter the name of the SKU you want to use: " imageSKU
 # Set the disk size to 128 GB
 osDiskSize=128
 
-# Set the VM size to Standard_DS2
-vmSize=Standard_D2s_v4
+# Set the VM size to Standard_D8_v5
+vmSize=Standard_D8_v5
 
 # Create a resource group
 az group create --name $resourceGroup --location eastus
